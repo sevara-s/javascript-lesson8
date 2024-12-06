@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>lesson8</title>
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[20px]">
+      <div class="container">
+        <!-- header_top -->
+        <div class="header_top flex items-center justify-between border-b">
+          <p>
+            <a class="font-[400] text-[12px] text-[#000]" href="#"
+              >Санкт-Петербург</a
+            >
+          </p>
+          <div class="left_links flex items-center gap-[20px]">
+            <p>
+              <a class="font-[400] text-[12px] text-[#000]" href="#">О нас</a>
+            </p>
+            <p>
+              <a class="font-[400] text-[12px] text-[#000]" href="#"
+                >Наши салоны</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[12px] text-[#000]" href="#"
+                >Оплата и доставка</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[12px] text-[#000]" href="#"
+                >Для бизнеса</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- header_top ended -->
+
+        <!-- header_bottom started -->
+        <div class="header_bottom flex items-center justify-between pt-[20px]">
+          <img src="./imgs/header_icon.png" alt="" />
+          <div
+            class="search flex items-center p-[20px] bg-[#f6f6f6] rounded-[4px]"
+          >
+            <input
+              type="search"
+              placeholder="Белый стул"
+              class="font-[300] text-13px text-[#dad8d8] bg-transparent outline-none"
+            />
+            <img src="./svgs/search.svg" alt="" />
+          </div>
+          <div class="nums">
+            <p>
+              <a
+                class="font-[400] text-[20px] text-[#000]"
+                href="tel:8 800 700 40 24"
+                >8 800 700 40 24</a
+              >
+            </p>
+            <p class="font-[400] text-[12px] text-[#000]">
+              Позвонить или написать
+            </p>
+          </div>
+          <div class="header_icons flex items-center gap-[16px]">
+            <img src="./svgs/h1.svg" alt="" />
+            <img src="./svgs/h2.svg" alt="" />
+            <img src="./svgs/h3.svg" alt="" />
+            <img src="./svgs/h4.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- for_links -->
+    <section class="for_links">
+      <div class="container">
+        <div class="top_links flex items-center gap-[20px]">
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#000] hover:underline"
+              href="#"
+              >Каталог</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#000] hover:underline"
+              href="#"
+              >Каталог по комнатам</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#000] hover:underline"
+              href="#"
+              >Дизайн-проекты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#000] hover:underline"
+              href="#"
+              >Мебель на заказ</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- for_links ended -->
+
+    <!-- showcase started -->
+    <section class="showcase mt-[30px]">
+      <div
+        class="container bg-[url('/imgs/showcase_main.png')] bg-cover bg-center h-[80vh]"
+      ></div>
+    </section>
+    <!-- showcase ended -->
+
+    <!-- section:catalogs started -->
+    <section class="catalogs mt-[50px]">
+      <div class="container">
+        <div class="top_part flex items-center justify-between">
+          <h4 class="font-[400] text-[20px] text-[#000]">
+            Каталог по комнатам
+          </h4>
+          <h4 class="font-[400] text-[16px] text-[#000]">
+            Каталог по комнатам
+          </h4>
+        </div>
+
+        <div class="rooms grid grid-cols-3 gap-[15px]">
+          <!-- room1 -->
+          <div class="room1 flex flex-col gap-[10px]">
+            <img src="./imgs/c1.png" alt="" />
+
+            <p class="font-[400] text-[16px] text-[#000]">Ванная</p>
+          </div>
+          <!-- room2 -->
+          <div class="room1 flex flex-col gap-[10px]">
+            <img src="./imgs/c2.png" alt="" />
+
+            <p class="font-[400] text-[16px] text-[#000]">Прихожая</p>
+          </div>
+          <!-- room3 -->
+          <div class="room1 flex flex-col gap-[10px]">
+            <img src="./imgs/c3.png" alt="" />
+
+            <p class="font-[400] text-[16px] text-[#000]">Кухня</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:catalogs ended-->
+
+    <!-- section:popular_products started -->
+    <section class="popular_products mt-[60px]">
+      <div class="container">
+        <div class="top_part flex items-center justify-between">
+          <h4 class="font-[400] text-[20px] text-[#000]">
+            Популярные категории
+          </h4>
+          <h4 class="font-[400] text-[16px] text-[#000]">Все категории</h4>
+        </div>
+
+        <!-- mebels -->
+        <div class="mebels grid grid-cols-5 gap-[20px]">
+          <!-- mebel1 -->
+          <div class="mebel1 flex flex-col gap-[10px] items-center p-[10px]">
+            <div class="img1 flex items-center justify-center bg-[#e4e4e4]">
+              <img src="./imgs/p1.png" alt="" />
+            </div>
+            <p class="font-[400] text-[16px] text-[#000]">Кресла</p>
+          </div>
+          <!-- mebel2 -->
+          <div class="mebel1 flex flex-col gap-[10px] items-center p-[10px]">
+            <div class="img1 flex items-center justify-center bg-[#e4e4e4]">
+              <img src="./imgs/p2.png" alt="" />
+            </div>
+            <p class="font-[400] text-[16px] text-[#000]">Столы</p>
+          </div>
+          <!-- mebel3 -->
+          <div class="mebel1 flex flex-col gap-[10px] items-center p-[10px]">
+            <div class="img1 flex items-center justify-center bg-[#e4e4e4]">
+              <img src="./imgs/p3.png" alt="" />
+            </div>
+            <p class="font-[400] text-[16px] text-[#000]">Стулья</p>
+          </div>
+          <!-- mebel4 -->
+          <div class="mebel1 flex flex-col gap-[10px] items-center p-[10px]">
+            <div class="img1 flex items-center justify-center bg-[#e4e4e4]">
+              <img src="./imgs/p1.png" alt="" />
+            </div>
+            <p class="font-[400] text-[16px] text-[#000]">Столы</p>
+          </div>
+          <!-- mebel5 -->
+          <div class="mebel1 flex flex-col gap-[10px] items-center p-[10px]">
+            <div class="img1 flex items-center justify-center bg-[#e4e4e4]">
+              <img src="./imgs/p2.png" alt="" />
+            </div>
+            <p class="font-[400] text-[16px] text-[#000]">Столы</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:popular_products ended -->
+
+    <!-- section:information started -->
+    <section class="information">
+      <div
+        class="container bg-[#f6f6f6] flex items-center justify-between p-[15px]"
+      >
+        <h1 class="font-[400] text-[24px] text-[#1a344d]">
+          Информационный блок про работу с бизнесом
+        </h1>
+        <button class="btn1">Узнать подробнее</button>
+      </div>
+    </section>
+    <!-- section:information ended -->
+
+    <!-- section:all_mebels started -->
+    <section class="all_mebels">
+      <div class="container">
+        <div class="top_part flex items-center justify-between">
+          <h4 class="font-[400] text-[20px] text-[#000]">Лучшее предложение</h4>
+          <h4 class="font-[400] text-[16px] text-[#000]">Все предложения</h4>
+        </div>
+
+        <!-- all products started -->
+        <div class="all_products grid grid-cols-4 gap-[30px]">
+          <!-- prd1 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all1.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd2 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all2.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd3 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all3.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd4 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all4.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd5 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all5.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd6 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all6.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd7 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all7.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- prd8 -->
+          <div class="product1 flex flex-col items-center">
+            <div class="img_product bg-[#f6f6f6] p-[10px]">
+              <div class="top_part flex items-center justify-between">
+                <div class="blackbox bg-[#000] px-[6px] py-[4px]">
+                  <p class="font-[400] text-[8px] text-[#fff]">Распродажа</p>
+                </div>
+                <img src="./svgs/heart.svg" alt="" />
+              </div>
+              <img src="./imgs/all8.png" alt="" />
+            </div>
+
+            <div class="about_product flex flex-col gap-[8px]">
+              <div class="product_price flex items-center justify-between">
+                <h2 class="font-[400] text-[14px] text-[#000]">
+                  Декоративный куст, с шикарными листьями, <br />
+                  горшком
+                </h2>
+                <p class="font-[400] text-[14px] text-[#000]">2 000 руб.</p>
+              </div>
+
+              <div class="product_cart flex items-center justify-between">
+                <div class="trees flex items-center gap-[10px]">
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                  <img src="./imgs/tree.png" alt="" />
+                </div>
+                <img src="./svgs/cart.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

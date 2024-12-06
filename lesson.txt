@@ -1,0 +1,16 @@
+Array methods in Javascript
+let arr = ["iajdfh","dhfiu", 1, 78, "salom dunyo"];
+1) arr.length --> this method returns  the length of array.
+2)arr.at(3)--> this method returns the value in the 3 index.
+3)arr.pop() --> removes the last element of an array. Also when we can store the element that was removed to the variable end return the removed element
+4)arr.shift() --> removes the first index of element.
+5)arr.unshift() --> adds the new element at the beginning of array.
+6) with concat() methods we can add two excisting array to one new array.
+For example: 
+let fruits = ["apple", "banana"];
+let vegies = ["cucumber"];
+
+let food = fruits.concat(vegies);
+7) arr.toString() --> this methods converts array elements to string 
+8)arr.push()-->add new element to the array from the end
+9)
